@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>forms</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            h2{
+                font-size: medium;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+       <form action="close application">
+        <fieldset>
+            <legend>Sports Registration</legend>
+            Name    : <input type="text"><br>
+            Roll NO : <input type="number" name="id" id="id"><br>
+            Email   : <input type="email" name="email" id="email"><br>
+            DOB     : <input type="date" name="dob" id="dob"><br>
+            Gender  :
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">male</label>
+            <input type="radio" name="gender" id="gender" >
+            <label for="gender">female</label>
+            <input type="radio" name="gender" id="gender" >
+            <label for="gender">other</label><br>
+            <label for="dept">department :</label>
+            <select name="dept" id="dept">
+                <option value="csse">csse</option>
+                <option value="cse">cse</option>
+                <option value="mech">mech</option>
+                <option value="ece">ece</option>
+              </select>
+            <h2>sports you are interested to participate </h2>
+            <input type="checkbox" name="sport" id="sport">
+            <label for="sport">cricket</label><br>
+            <input type="checkbox" name="sport" id="sport">
+            <label for="sport">football</label><br>
+            <input type="checkbox" name="sport" id="sport">
+            <label for="sport">chess</label><br>
+            <input type="checkbox" name="sport" id="sport">
+            <label for="sport">hockey</label><br>
+            <input type="checkbox" name="sport" id="sport">
+            <label for="sport">swimming</label><br>
+            <button type="submit">submit</button>
+            <input type="reset" >
+        </fieldset>
+       </form>
+    </body>
+</html>
